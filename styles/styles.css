@@ -1,0 +1,35 @@
+/* Colors:
+    #2F5D3A - DARK GREEN
+    #E6D8B8 - Light tan
+    #E67E22 - Dark orange
+    #4A7C8C - Light blue
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+body{
+    background-color: #e6d8B8;
+    
+}
+
+
+header{
+    background-color: #2f5d3a;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: #e6d8b8;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 4px 4px 0px 25px;
+}
+
+#hero{
+    background-image: url(/images/hero-img.png);
+    height: 500px;
+}

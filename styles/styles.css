@@ -68,20 +68,28 @@ nav a:hover{
     color: #E67E22
 }
 
-#content{
+#container{
     display: grid;
     grid-template-columns: 15% 70% 15%;
     margin-bottom: 40px;
 }
 
+#content{
+    /* display: grid;
+    grid-template-columns: 15% 70% 15%;
+    margin-bottom: 40px; */
+    grid-column: 2;
+    align-items: center;
+}
+
 p{
     font-family: "Open Sans";
-    grid-column: 2;
+    /* grid-column: 2; */
     margin: 10px;
 }
 
 #links{
-    grid-column: 2;
+    /* grid-column: 2; */
     
     align-items: center;
     justify-self: center;
@@ -89,8 +97,8 @@ p{
 }
 
 #content img{
-    grid-column: 2;
-    margin: auto;
+    /* grid-column: 2; */
+    margin: 0px 227px 0px 227px;
     height: 275px;
     border-radius: 7px;
     box-shadow: 5px 5px 15px 0px #8f7846;
@@ -98,23 +106,25 @@ p{
 }
 
 #content h2{
-    grid-column: 2;
+    /* grid-column: 2; */
     font-family: montserrat;
     color: #E67E22;
     margin: auto;
     padding-top: 40px;
     text-shadow: 3px 3px 4px #c4a563;
+    text-align: center;
 }
 
 #content ul{
-    grid-column: 2;
+    /* grid-column: 2; */
     font-family: "Open Sans";
     margin: auto;
+    padding-left: 315px;
 }
 
 #content h1{
     color: #E67E22;
-    grid-column: 2;
+    /* grid-column: 2; */
     text-align: center;
     padding: 20px;
     text-shadow: 3px 3px 4px #c4a563;

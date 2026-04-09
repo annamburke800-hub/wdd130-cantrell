@@ -38,6 +38,7 @@ h1{
 header{
     display: grid;
     grid-template-columns: 200px 1fr 150px;
+    box-shadow: 5px 5px 15px 0px #8f7846;
 }
 
 nav ul{
@@ -59,9 +60,10 @@ nav a{
     text-decoration: none;
     font-size: 20px;
     font-family: montserrat;
+    transition: transform .2s ease-in-out;
 }
 nav a:hover{
-    font-size: 22px;
+    transform: scale(1.1);
     text-decoration:underline;
     color: #E67E22
 }
@@ -69,11 +71,13 @@ nav a:hover{
 #content{
     display: grid;
     grid-template-columns: 15% 70% 15%;
+    margin-bottom: 40px;
 }
 
 p{
     font-family: "Open Sans";
     grid-column: 2;
+    margin: 10px;
 }
 
 #links{
@@ -81,11 +85,61 @@ p{
     
     align-items: center;
     justify-self: center;
+    margin: 10px;
+}
+
+#content img{
+    grid-column: 2;
+    margin: auto;
+    height: 275px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px 0px #8f7846;
+    margin-top: 5px;
+}
+
+#content h2{
+    grid-column: 2;
+    font-family: montserrat;
+    color: #E67E22;
+    margin: auto;
+    padding-top: 40px;
+    text-shadow: 3px 3px 4px #c4a563;
+}
+
+#content ul{
+    grid-column: 2;
+    font-family: "Open Sans";
+    margin: auto;
+}
+
+#content h1{
+    color: #E67E22;
+    grid-column: 2;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 4px #c4a563;
+}
+#links h2{
+    text-align: center;
 }
 
 .button{
+    display: block;
     background-color:#4A7C8C;
     color: #E6D8B8;
     text-decoration: none;
-    margin: 10px;
+    margin: auto;
+    padding: 15px 350px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px 0px #8f7846;
+    width: 200px;
+    text-align: center;
+    font-family: "Open Sans";
+    color: #E6D8B8;
+    transition: transform .2s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    color:#843f02;
 }

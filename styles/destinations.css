@@ -10,6 +10,33 @@
     margin: 4px 4px 0px 25px;
 }
 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    grid-column: 2;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+nav a{
+    float: left;
+    color: #E6D8B8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: montserrat;
+    transition: transform .2s ease-in-out;
+}
+nav a:hover{
+    transform: scale(1.1);
+    text-decoration:underline;
+    color: #E67E22
+}
+
 body{
     background-color: #e6d8B8;
     
